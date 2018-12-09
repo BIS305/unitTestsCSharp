@@ -1,0 +1,9 @@
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\bin\Debug\netstandard2.0\ouut.deps.json
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\bin\Debug\netstandard2.0\ouut.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\bin\Debug\netstandard2.0\ouut.pdb
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.csprojAssemblyReference.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.csproj.CoreCompileInputs.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.AssemblyInfoInputs.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.AssemblyInfo.cs
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\ouut\obj\Debug\netstandard2.0\ouut.pdb

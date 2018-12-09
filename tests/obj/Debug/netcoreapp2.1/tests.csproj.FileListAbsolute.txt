@@ -1,0 +1,17 @@
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\tests.deps.json
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\tests.runtimeconfig.json
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\tests.runtimeconfig.dev.json
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\tests.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\tests.pdb
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\ouut.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\bin\Debug\netcoreapp2.1\ouut.pdb
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.csprojAssemblyReference.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.csproj.CoreCompileInputs.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.AssemblyInfoInputs.cache
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.AssemblyInfo.cs
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.csproj.CopyComplete
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.dll
+C:\Users\MARKMCFADDEN\Source\Repos\dotnet\unitTestsCSharp\tests\obj\Debug\netcoreapp2.1\tests.pdb
