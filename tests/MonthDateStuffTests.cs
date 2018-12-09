@@ -28,5 +28,16 @@ namespace tests
         {
             Assert.True(_monthDateStuff.IsValidMonth(monthInt));
         }
+
+        [Theory]
+        [InlineData(2018, 12)]
+        [InlineData(2019, 1)]
+        [InlineData(2019, 3)]
+        public void ReturnLastDayOfTheMonth(int year, int month)
+        {
+            var result = _monthDateStuff.GetLastDayOfTheMonth(year, month);
+
+            Assert.True(result.Equals(31));
+        }
     }
 }
