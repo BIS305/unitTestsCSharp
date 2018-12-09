@@ -30,12 +30,11 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -179,23 +178,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m2web\\.nuget\\packages\\": {},
+    "C:\\Users\\MARKMCFADDEN\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\code\\dotnet\\unitTestsCSharp\\ouut\\ouut.csproj",
+      "projectUniqueName": "C:\\Users\\MARKMCFADDEN\\Source\\Repos\\dotnet\\unitTestsCSharp\\ouut\\ouut.csproj",
       "projectName": "ouut",
-      "projectPath": "C:\\code\\dotnet\\unitTestsCSharp\\ouut\\ouut.csproj",
-      "packagesPath": "C:\\Users\\m2web\\.nuget\\packages\\",
-      "outputPath": "C:\\code\\dotnet\\unitTestsCSharp\\ouut\\obj\\",
+      "projectPath": "C:\\Users\\MARKMCFADDEN\\Source\\Repos\\dotnet\\unitTestsCSharp\\ouut\\ouut.csproj",
+      "packagesPath": "C:\\Users\\MARKMCFADDEN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MARKMCFADDEN\\Source\\Repos\\dotnet\\unitTestsCSharp\\ouut\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\m2web\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MARKMCFADDEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
