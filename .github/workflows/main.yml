@@ -35,9 +35,21 @@ jobs:
       if: ${{ github.event_name == 'pull_request' }}
       uses: kkak10/pr-number-action@v1.3
       
+    # set report file and title 
+    - name: Set Test Title
+      run: | 
+            if ${{ github.event_name == 'pull_request' }}
+            then
+              echo "title=BIS 305 Test Run for PR #${{steps.PRNUMBER.outputs.pr}} (${{github.run_number}})" >> $GITHUB_ENV
+              echo "file_name=BIS305TestReport.${{steps.PRNUMBER.outputs.pr}}.${{github.run_number}}.md" >> $GITHUB_ENV
+            else
+              echo "title=BIS 305 Test Run ${{github.run_number}}" >> $GITHUB_ENV
+              echo "file_name=BIS305TestReport.${{github.run_number}}.md" >> $GITHUB_ENV
+            fi      
+
       # run tests with built project
     - name: Test PR
-      run: dotnet test --no-restore --no-build --configuration $config --logger:"liquid.md;LogFileName=${{github.workspace}}/BIS305TestReport.${{github.run_number}}.md;Title=${{github.repository}}/BIS305TestReport.${{github.run_number}};"
+      run: dotnet test --no-restore --no-build --configuration $config --logger:"liquid.md;LogFileName=${{github.workspace}}/${{env.file_name}};Title=${{env.title}};"
       working-directory: tests
       
       # upload report as build artifact
@@ -46,8 +58,7 @@ jobs:
       if: ${{always()}}
       with:
         name: ${{github.repository_owner}} Test Run ${{github.run_number}}
-        #make sure LogFileName is the value in the path below
-        path: ${{github.workspace}}/BIS305TestReport.${{github.run_number}}.md
+        path: ${{github.workspace}}/${{env.file_name}}
       
       # add report as PR comment (if PR)
     - name: comment PR
@@ -56,4 +67,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        path: BIS305TestReport.${{github.run_number}}.md
+        path: ${{env.file_name}}
