@@ -45,7 +45,7 @@ jobs:
       if: ${{always()}}
       with:
         name: ${{github.repository_owner}} Test Run ${{github.run_number}}
-        path: tests/BIS305TestReport.${{github.run_number}}.md
+        path: ${{github.workspace}}/tests/BIS305TestReport.${{github.run_number}}.md
       
       # add report as PR comment (if PR)
     - name: comment PR
